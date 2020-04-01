@@ -5,7 +5,7 @@
 
 //保存一个json文件访问的URL作为一个变量
 var pageCount =1
-// let reqURL = "animals.json";
+// let reqURL = "animals.json";下面用open（“方法”，“资源存在的地方”）调用本地json文件存在一个域的问题，用服务就可以解决TOKEN
 // var btn1 = document.getElementById('btn1');
 var animalContaner = document.getElementById("aninmals-item");
 var btn2 = document.getElementById('myButton');
@@ -20,6 +20,7 @@ function showMesga() {
     alert("事件2监听");
 }
 // 以上经验总结
+
 // btn1.addEventListener('click', showMsg, false); //鼠标单击的时候调用showMes这个函数  
 btnStar.addEventListener('click',function () //鼠标单击的时候调用showMes这个函数  
  {
